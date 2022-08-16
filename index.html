@@ -4,31 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/favicon-16x16.png" type="image/x-icon">
     <title>Portafolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header class="header">
         <nav class="nav">
-            <div>
+            <div class="menu-container">
                 <input class="input-menu" type="checkbox" id="menu-mobile">
                 <label for="menu-mobile" class="input-label">
-                    <img src="./assets/icons/menu 1.svg" alt="menu mobile" class="header-img">
+                    <img src="./assets/icons/menu 1.svg" alt="menu mobile" class="menu-mobile">
                 </label>
                 <ul class="nav--menu">
-                    <li class ="nav--nav-item">Home</li>
-                    <li class ="nav--nav-item">Experiencia y Habilidades</li>
-                    <li class ="nav--nav-item">Portafolio</li>
-                    <li class ="nav--nav-item">Contacto</li>
+                    <li class ="nav--nav-item">
+                        <a href="#" class="btn">Home</a>
+                    </li>
+                    <li class ="nav--nav-item">
+                        <a href="#experience-skills" class="btn">Experiencia y Habilidades</a>
+                    </li>
+                    <li class ="nav--nav-item">
+                        <a href="#portafolio" class="btn">Portafolio</a>
+                    </li>
+                    <li class ="nav--nav-item">
+                        <a href="#contact" class="btn">Contacto</a> 
+                    </li>
                 </ul>
             </div>
         </nav>
         <!-- section 1 -->
         <section class="header-section">
             <div class="header-section-uno">
-                <h1 class="header-title">Experience in Programming</h1>
+                <h1>Experiencia como programador</h1>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Conocimientos en lenguajes de programacion como Java, C# y Javascript.
+                    Ademas de tener conocimientos en HTML, CSS, GIT, GituHub y conocimientos basicos en linux. Bases en estructuras de datos como Programacion Orientada a Objetos (P.O.O.), Pilas, Colas y listas. Ademas de una capadidad de entender algotirmos y pseudocodigo.
                 </p>
             </div>
             <div class="header-section-dos">
@@ -37,7 +47,7 @@
                 </div>
                 <div class="header-experience">     
                     <p class="header-section-dos__descripcion">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Experiencia como desarrollador:
                     </p>
                     <p class="header-section-dos-experience">
                         <span class="header-section-dos__purple">+1 año</span> de experiencia en Java
@@ -46,39 +56,55 @@
                         <span class="header-section-dos__purple">+1 año</span> de experiencia en C#
                     </p>
                     <p class="header-section-dos-experience">
-                        <span class="header-section-dos__purple">2 meses</span> de experiencia en Java
+                        <span class="header-section-dos__purple">+2 meses</span> de experiencia en Javascript
+                    </p>
+                    <p class="header-section-dos-experience">
+                        <span class="header-section-dos__purple">+2 meses</span> de experiencia en HTML
+                    </p>
+                    <p class="header-section-dos-experience">
+                        <span class="header-section-dos__purple">+2 meses</span> de experiencia en Css
                     </p>
                     <div class="social-media">
                         <div class="social-media-icon">
-                            <img src="./assets/icons/cib_linkedin-in.svg" alt="linkedin icon">
+                            <a href="#">
+                                <img src="./assets/icons/cib_linkedin-in.svg" alt="linkedin icon" class="social-btn">
+                            </a>
                         </div>
                         <div class="social-media-icon">
-                            <img src="./assets/icons/ant-design_instagram-filled.svg" alt="instagram icon">
+                            <a href="#">
+                                <img src="./assets/icons/ant-design_instagram-filled.svg" alt="instagram icon" class="social-btn">
+                            </a>
                         </div>
                         <div class="social-media-icon">
-                            <img src="./assets/icons/ant-design_twitter-outlined.svg" alt="twitter icon">
+                            <a href="#">
+                                <img src="./assets/icons/ant-design_twitter-outlined.svg" alt="twitter icon" class="social-btn">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="header-section-tres">
-                <div class="mail-card">
+                <div>
+                    <a href="#contact" class="mail-card btn" >
                     <img src="./assets/icons/mail 3.svg" alt="mail icon" class="header-mail-icon">
                     <p class="mail-contact-card">
                     Contactame
-                </p>
-                </div>
-                
+                    </p>
+                    </a>
+                </div>            
             </div>
         </section>
     </header>
     <main>
         <!-- Section 2 -->
-        <section class="main-experience-habilities">
+        <section class="main-experience-habilities" id="experience-skills">
             <div class="main-experience-habilities__subtitle">
-                <h2 class="main-subtitle"> Experiencia y habilidades</h2>
+                <h2> Experiencia y habilidades</h2>
                 <p> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Capacidad de crear paginas web con estilos y con responsividad. 
+                </p>
+                <p>
+                    Habilidad de crear aplicaciones con Java y C#
                 </p>
             </div>
             <div class="main-experience">
@@ -87,14 +113,14 @@
                 </h3>
                 <div class="main-experience-subsection">
                     <p>
-                        2016/2018
+                        2017/2022
                     </p>
                     <div>
                         <p class="experience-subsection">
-                        Visual Designer
+                        Estudiante
                     </p>
                     <p>
-                        Wizeline
+                        UMSA
                         </p>
                     </div>      
                 </div>
@@ -104,48 +130,48 @@
                     </p>
                     <div>
                         <p class="experience-subsection">
-                        Product Designer
+                        Java Developer
                         </p>
                     <p>
-                        Microsoft
+                        Junior
                     </p>
                     </div>       
                 </div>
                 <div class="main-experience-subsection delete-border">
                     <p>
-                        2019/2021
+                        2019/2020
                     </p>
                     <div>
                         <p class="experience-subsection">
-                        UI Engineer
+                        C# Developer
                         </p>
                     <p>
-                        Google
+                        Junior
                     </p>
                     </div>
                 </div>
             </div>
             <div class="main-habilities">
-                <h3 class="main-subsection">
+                <h3>
                     Habilidades
                 </h3>
                 <div class="main-habilities-subsection">
                     <div>
                         <img src="./assets/icons/ant-design_mobile-filled.svg" alt="">
                         <p>
-                            Mobile app design
+                            Console app Java, C#
                         </p>
                     </div>
                     <div>
                         <img src="./assets/icons/mdi_motion.svg" alt="">
                         <p>
-                            Motion Design
+                            Programacion Estructurada
                         </p>
                     </div>
                     <div>
                         <img src="./assets/icons/mdi_material-design.svg" alt="">
                         <p>
-                            Creacion y mantenimiento de sistemas de diseño
+                            Creacion, mantenimiento de sistemas y maquetado de paginas HTML
                         </p>
                     </div>
                     <div>
@@ -158,34 +184,38 @@
                     
             </div>
         </section>
-        <section class="main-portafolio">
-            <h2 class="main-portafolio-subtitle">
+        <section class="main-portafolio" id="portafolio">
+            <h2>
                 Portafolio
             </h2>
-            <div class="main-portafolio-images">
-                <p class="main-portafolio-purple">
-                    Beauty app 
-                </p>
-                <img src="./assets/logs-images/Group 46.jpg" alt="" class="portafolio-images">
-            </div>
-            <div class="main-portafolio-images">
-                <p class="main-portafolio-purple">
-                    Training app
-                </p>
-                <img src="./assets/logs-images/Group 47.jpg" alt="" class="portafolio-images">
-            </div>
-            <div class="main-portafolio-images">
-                <p class="main-portafolio-purple">
-                    Hotel app
-                </p>
-                <img src="./assets/logs-images/Group 48.jpg" alt="" class="portafolio-images">
+            <div class="main-portafolio-subsection">
+                <div class="main-portafolio-images">
+                    <p class="main-portafolio-purple">
+                        Portafolio
+                    </p>
+                    <img src="./assets/logs-images/Portafolio.png" alt="Portafolio" class="portafolio-images">
+                </div>
+                <div class="main-portafolio-images">
+                    <p class="main-portafolio-purple">
+                        Training app
+                    </p>
+                    <img src="./assets/logs-images/Group 47.jpg" alt="" class="portafolio-images">
+                </div>
+                <div class="main-portafolio-images">
+                    <p class="main-portafolio-purple">
+                        Hotel app
+                    </p>
+                    <img src="./assets/logs-images/Group 48.jpg" alt="" class="portafolio-images">
+                </div>
             </div>
         </section>
-        <section class="main-contact">
-            <h2 class="main-contact-subtitle">
+    </main>
+    <footer>
+        <section class="footer-contact" id="contact">
+            <h2>
                 Contacto
             </h2>
-            <div class="main-contact-subsection">
+            <div class="footer-contact-subsection">
                 <div class="contact-card">
                     <img src="./assets/icons/phone 3.svg" alt="" class="contact-icon">
                     <p class="contact-card-bold">
@@ -204,9 +234,8 @@
                         leonelcondori98@gmail.com
                     </p>
                 </div>
-            </div>
-                
+            </div>             
         </section>
-    </main>
+    </footer>
 </body>
 </html>

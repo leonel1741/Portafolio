@@ -244,15 +244,17 @@ h3 {
 
 .main-portafolio-images {
     padding: 1rem 0;
+    text-align: center;
 }
 
 .portafolio-images {
-    width: 300px;
-    min-width: 100%;
+    width: 400px;
+    min-height: 300px;
+    max-width: 80%;
+    height: 400px;
     position: static;
     overflow: hidden;
     box-shadow: 0px 10px 20px;
-    
 }
 
 .footer-contact {
@@ -411,7 +413,7 @@ h3 {
     }
 
     .footer-contact {
-        padding: 1rem 6%;
+        padding: 2rem 6%;
         text-align: left;
     }
 
